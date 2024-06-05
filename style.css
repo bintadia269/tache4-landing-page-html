@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+   /* outline: 5px solid red; */
+}
+body{
+    font-family: 'Poppins' sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.binta{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Group\ 25.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 40px 0;
+}
+.binta .logo{
+   text-align: center;
+   margin: 40px 0;
+}
+.binta .tite{
+    background: gray;
+    width: 40%;
+    margin: auto;
+   
+}
+.binta .tite h1{
+    color: #fff;
+    
+    margin: auto;
+    font-size: 20px;
+}
+.binta p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 16px;
+}
+.ecran{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0; 
+}
+.designer{
+    border: 1px solid green;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+    margin-top: -6%;
+    font-size: 15px;
+}
+.para{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 18px;
+    margin-top: -1%; 
+}
+.navbar{
+    padding: 50px 0 ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.navbar a{
+     color: black;
+}
+.navbar .nav-links ul{
+      display: flex;
+}
+.navbar .nav-links ul li{
+    margin: 0 10px;
+}
+.design{
+  background-color: gainsboro;
+   width: 100%;
+   padding: 15px;
+}
+ .container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+    margin: 120px;
+} 
+.graphe{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: -70px; */
+}
+.terminal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+.bak{
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+}
+.back{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.titles{
+    margin: 10px;
+    padding: 70px;
+    position: relative;
+    top: 60px;  
+}
+.team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 50px;
+}
+.teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+   
+    width: 40%;
+    background-color: #DCDCDC;  
+}
+.class{
+    position: relative;
+    right: 50px;
+}
+.skillset{
+    text-align: right;
+    color: #fff;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.mysql{
+    width: 100%;
+    background-color: #8FBC8F;
+}
+.html{
+    width: 80%;
+    background-color: #8FBC8F;
+}
+.css{
+    width: 90%;
+    background-color: #8FBC8F;
+}
+.sql{
+    width: 70%;
+    color: #8FBC8F;
+    background-color: #8FBC8F;
+}
+.bar{
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+.barre{
+    color: #fff;
+}
+.pro{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.pro1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;    
+}
+.bar1{
+    position: relative;
+    top: 20px;
+    left: 32px;
+}
+.bar2{
+    position: relative;
+    bottom:30px;
+    left: 128px;
+}
+.bar3{
+    position: relative;
+    left: 27px;
+    bottom: 30px;
+}
+.binty p{
+    text-align: center;
+    padding: 20px 0;
+}
+.binty{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Rectangle\ 66\ \(1\).png); 
+    padding-bottom: 10px; 
+}
+.notre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+}
+.logos{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+    text-align: center;
+
+} 
+.imges{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.text {
+   text-align: center;
+
+}
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 60px;
+}
+.milieu .logo img{
+    text-align: center;  
+}
+.milieu .logo{
+    text-align: center;
+    padding: 20px 0;
+}
+.binti{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Rectangle\ 68\ \(2\).png);
+    padding: 20px 0 10px 0 ;
+}
+.inf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 50px 0;
+} 
+.contenu-footer{
+       width: 100%;
+       margin: 0 auto;
+       display: flex;
+       justify-content: center;
+       align-items: flex-start;
+       font-size: 15px;
+       /* padding: 60px 0 50px;  */
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 60px; */
+    padding-top: 20px;
+}
+.cop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 120px; */
+    padding: 20px 0;
+}
+@media only screen and (max-width: 667px){
+   
+   .navbar{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+   }
+   .navbar a{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+   }
+   .nav-links{
+    width: 100%;
+   }
+.ecran{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px; 
+}
+.titre{
+    font-size: 10px;
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    margin-left: -8%;
+}
+.terminal img {
+    width: 100%;
+    height: 100%;
+}
+.para{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -2%;
+}
+.design{
+    width: 92%;
+}
+.graphe{
+    display: block;
+    flex-direction: row;
+}
+.bar2{
+   margin-left: -50%;
+}
+.imges{
+   display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.imges img{
+    width: 100%;
+}
+.text p6{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 15px;
+}
+footer .binti{
+   width: 100%;
+}
+.contenu-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+}
